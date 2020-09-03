@@ -13,6 +13,7 @@ let colorStates = {
 // STEP 1: This code is what lets JavaScript find the elements that we want to make clickable.
 // Without JavaScript, clicking on these heart shapes does nothing. Uncomment
 // this code and refresh the demo page.
+// Recognizes events 
 
 let articleHearts = document.querySelectorAll(".like-glyph");
 
@@ -53,7 +54,7 @@ for (let glyph of articleHearts) {
 //------------------------------------------------------------------------------
 // Ignore after this point. Used only for demo purposes
 //------------------------------------------------------------------------------
-
+//server
 function mimicServerCall() {
   return new Promise(function(resolve, reject) {
     setTimeout(function() {
