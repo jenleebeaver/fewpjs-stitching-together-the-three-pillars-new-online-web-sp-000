@@ -39,6 +39,7 @@ function likeCallback(e) {
 // work, the elements we identify in STEP 1 need to be told to run that update
 // code when an "event" is fired. That's Pillar 2, event handling. Uncomment
 // this code.
+// server
 
 for (let glyph of articleHearts) {
   glyph.addEventListener("click", likeCallback);
@@ -54,7 +55,7 @@ for (let glyph of articleHearts) {
 //------------------------------------------------------------------------------
 // Ignore after this point. Used only for demo purposes
 //------------------------------------------------------------------------------
-//server
+
 function mimicServerCall() {
   return new Promise(function(resolve, reject) {
     setTimeout(function() {
